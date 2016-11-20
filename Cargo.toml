@@ -1,0 +1,11 @@
+[package]
+name = "snapshot_manager"
+version = "0.1.0"
+authors = ["Leo Schwarz <mail@leoschwarz.com>"]
+
+[dependencies]
+chrono = "0.2"
+clap = "2.18"
+env_logger = "0.3"
+iron = "0.4.0"
+log = "0.3.6"
