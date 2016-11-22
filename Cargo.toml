@@ -9,3 +9,18 @@ clap = "2.18"
 env_logger = "0.3"
 iron = "0.4.0"
 log = "0.3.6"
+
+[package.metadata.deb]
+maintainer = "Leo Schwarz <mail@leoschwarz.com>"
+copyright = "2016, Leo Schwarz <mail@leoschwarz.com>"
+license_file = ["LICENSE", "0"]
+extended_description = "Provides a server allowing non-root users to perform zfs snapshots at most once a day."
+depends = "$auto"
+section = "utility"
+priority = "optional"
+assets = [
+    ["target/release/snapshot_manager", "usr/bin/", "755"],
+    ["README.md", "usr/share/doc/cargo-deb/README", "644"],
+    ["assets/snapshot_manager.service", "usr/lib/systemd/system/", "644"],
+]
+
