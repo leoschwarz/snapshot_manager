@@ -11,7 +11,7 @@ A whitelist specifies all allowed volumes to back up.
 Snapshots are created with the day's date and a call to the zfs binary.
 As with ZFS on Linux this is only possible as root the server has to run as root.
 
-`curl localhost:7877?zroot/my/subvolume` will request `zroot/my/subvolume` to be snapshotted.
+`curl "localhost:7877?zroot/my/subvolume"` will request `zroot/my/subvolume` to be snapshotted.
 Note that currently only one snapshot per day can be created.
 (I will think about ways how this can be improved in a safe manner, i.e. no snapshot spam.)
 
