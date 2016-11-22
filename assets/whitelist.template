@@ -1,0 +1,4 @@
+# Whitelist of volumes that are allowed to be backed up.
+# Lines starting with a '#' will be ignored.
+# Write paths without initial slash, e.g.: zroot/data/backups
+

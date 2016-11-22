@@ -26,5 +26,6 @@ assets = [
     ["target/release/snapshot_manager", "usr/bin/", "755"],
     ["README.md", "usr/share/doc/cargo-deb/README", "644"],
     ["assets/snapshot_manager.service", "usr/lib/systemd/system/", "644"],
+    ["assets/whitelist.template", "etc/snapshot_manager/whitelist.empty", "644"],
 ]
 
