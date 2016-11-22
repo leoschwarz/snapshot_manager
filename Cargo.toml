@@ -1,7 +1,11 @@
 [package]
 name = "snapshot_manager"
 version = "0.1.0"
+license = "Apache"
 authors = ["Leo Schwarz <mail@leoschwarz.com>"]
+description = "Provides a server allowing non-root users to perform zfs snapshots at most once a day."
+keywords = ["zfs", "utility"]
+repository = "https://github.com/leoschwarz/snapshot_manager"
 
 [dependencies]
 chrono = "0.2"
