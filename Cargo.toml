@@ -8,10 +8,10 @@ keywords = ["zfs", "utility"]
 repository = "https://github.com/leoschwarz/snapshot_manager"
 
 [dependencies]
-chrono = "0.2"
+chrono = "0.3"
 clap = "2.18"
-env_logger = "0.3"
-iron = "0.4.0"
+env_logger = "0.4"
+iron = "0.5.1"
 log = "0.3.6"
 
 [package.metadata.deb]
