@@ -8,15 +8,15 @@ keywords = ["zfs", "utility"]
 repository = "https://github.com/leoschwarz/snapshot_manager"
 
 [dependencies]
-chrono = "0.3"
-clap = "2.18"
+chrono = "0.4"
+clap = "2.25"
 env_logger = "0.4"
 iron = "0.5.1"
 log = "0.3.6"
 
 [package.metadata.deb]
 maintainer = "Leo Schwarz <mail@leoschwarz.com>"
-copyright = "2016, Leo Schwarz <mail@leoschwarz.com>"
+copyright = "2016-2017, Leo Schwarz <mail@leoschwarz.com>"
 license_file = ["LICENSE", "0"]
 extended_description = "Provides a server allowing non-root users to perform zfs snapshots at most once a day."
 depends = "$auto"
