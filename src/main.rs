@@ -100,7 +100,7 @@ fn perform_snapshot(path: &String) -> Result<(), io::Error> {
 
 fn main() {
     // Setup logger.
-    env_logger::init().unwrap();
+    env_logger::init();
 
     // Parse arguments.
     let args = clap::App::new("snapshot_manager")
